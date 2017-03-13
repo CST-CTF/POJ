@@ -1,4 +1,4 @@
-# POJ Basic
+# POJ Basic codes and summary
 题号 | 类型 | 总结 
 ---- | --- | ---
 POJ1000 | | 
