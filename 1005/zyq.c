@@ -8,7 +8,6 @@ int main()
   scanf("%d", &n);
   for (int i = 0; i < n; i++)
   {
-    int n = 1;
     scanf("%f %f", &x, &y);
     area = (x*x + y*y)*3.14 / 2;
     year[i] = area / 50 + 1;
