@@ -20,9 +20,13 @@ int main()
       scanf("%c", &tmp);
       while (tmp == '\n')
       scanf("%c", &tmp);
-      if (tmp >= '0' && tmp <= '9')		str[i][n++] = tmp;
-  		else
-  			if (tmp >= 'A' && tmp <= 'P' || tmp >= 'R' && tmp <= 'Y')		str[i][n++] = map[tmp - 'A'] + '0';
+      if (tmp >= '0' && tmp <= '9')		
+         str[i][n++] = tmp;
+      else
+      {
+        if (tmp >= 'A' && tmp <= 'P' || tmp >= 'R' && tmp <= 'Y')
+          str[i][n++] = map[tmp - 'A'] + '0';
+      }
     }
     str[i][7] = '\0';
   }
